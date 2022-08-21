@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+.text {
+    color: white;
+}
+
+span {
+    color: white;
+    font-size: x-large;
+}
