@@ -4,6 +4,7 @@ import { Formik, Field, Form, ErrorMessage, useField } from 'formik';
 import * as Yup from 'yup';
 import ApiKey from '../services/ApiKey';
 import emailjs from 'emailjs-com';
+import ContactNetworks from '../components/contactNetworks';
 
 const contactSchema = Yup.object().shape(
     {
@@ -59,7 +60,7 @@ const ContactPage = () => {
             }, (err) => {
                 alert(JSON.stringify(err))
             })
-        
+
     }
 
     return (
@@ -114,10 +115,12 @@ const ContactPage = () => {
                                 placeholder="Message"
                             />
                             <button type='submit'>{send ? 'Sending...' : 'Send'}</button>
+                            <div className='networks'>
+                                <ContactNetworks></ContactNetworks>
+                            </div>
                         </Form>
                     </div>
                 )}
-
             </Formik>
         </div>
     );

@@ -1,7 +1,7 @@
-/* .box {
-    width: 50rem;
-    
-} */
+.nav {
+    display: flex;
+    flex-direction: row;
+}
 
 .link {
     text-decoration: none;

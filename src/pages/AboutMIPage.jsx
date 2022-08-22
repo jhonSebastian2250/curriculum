@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../images/home.jpeg'
+import photo from '../images/home4.jpg'
 import '../style/styleAboutMI/aboutMICSS.css'
 
 const AboutMIPage = () => {

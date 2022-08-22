@@ -52,3 +52,8 @@ button:hover{
     opacity: 100%;
     background-color: white;
 }
+
+.networks {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
