@@ -11,7 +11,7 @@ const style = {
 const Networks = ({ href, src, }) => {
     return (
         <picture>
-            <a href={href} target='_blank'>
+            <a href={href} target='_blank' rel='noreferrer'>
                 <img src={src} alt={src} style={{
                     width: '2rem',
                     height: '2rem',
