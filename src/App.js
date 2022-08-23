@@ -1,7 +1,7 @@
 import './App.css';
 import Menu from './components/menu';
 import HomePage from './pages/HomePage.jsx';
-import { BrowserRouter as Router, useRoutes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import AboutMIPage from './pages/AboutMIPage';
 import SkillsPage from './pages/SkillsPage';
